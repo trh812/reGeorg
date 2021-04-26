@@ -67,8 +67,11 @@ Example
 ```
 $ python reGeorgSocksProxy.py -p 8080 -u http://upload.sensepost.net:8080/tunnel/tunnel.jsp
 ```
-docker
-docker run  -it --rm trh812/tools:1.0 python reGeorgSocksProxy.py -h
+docker 
+---------
+```
+$ docker run  -it --rm trh812/tools:1.0 python reGeorgSocksProxy.py -p 8080 -u http://upload.sensepost.net:8080/tunnel/tunnel.jsp
+```
 License
 ----
 
